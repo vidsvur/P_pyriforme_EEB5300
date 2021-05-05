@@ -6,6 +6,10 @@ Once the raw data was transferred onto the server, the first step was to analyse
 
 See the result file [here](NanoStats.txt)
 
+The number of reads versus the readlengths are shown in the following image:
+
+![Histogram of read lengths](HistogramReadlength.png)
+
 The N50 is around 19k, and the reads were then further analysed with Centrifuge, to check to for contaminants.
 
 ## Program used:
