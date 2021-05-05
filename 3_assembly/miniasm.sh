@@ -25,6 +25,14 @@ module load minimap2/2.17
 
 path_dir=/projects/EBP/Wegrzyn/Moss/ppyriforme/assembly/centrifuge/abv_fungi_unclassified_reads_from_centrifuge
 
+# Command for miniasm
+   # minimap2 (use minimap2)
+   # -t8 (use 8 threads)
+   # miniasm -f  (assembly flag)
+   # $path <input data>
+   # awk '/^S/{print ">"$2"\n"$3}' (converts gfa to fasta)
+   # grep ">" wc -l (counts the contigs) 
+
 # Overlap for PacBio reads (or use "-x ava-ont" for nanopore read overlapping)
 minimap2 -x ava-pb -t8 $path_dir/ppyriforme_unclassified_reads_prometh_only.fastq $path_dir/ppyriforme_unclassified_reads_prometh_only.fastq | gzip -1 > $path_dir/reads.paf.gz
 

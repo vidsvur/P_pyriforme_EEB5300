@@ -10,4 +10,6 @@
 #SBATCH -o centrifuge_cat_%j.out
 #SBATCH -e centrifuge_cat_%j.err
 
+##concatenating all the .fna files to one file- input-sequences.fna file
+
 cat /projects/EBP/CBC/ppyriforme/centrifuge_14813/kraken/fungi/plant_files/*.fna > plants/input-sequences.fna
