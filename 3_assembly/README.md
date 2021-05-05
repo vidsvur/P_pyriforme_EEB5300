@@ -1,21 +1,11 @@
-# Heading
-
-## Subheading
-
-This is a link to [something](www.something.com)
-
-A | table |
---|-- |
-hi | banana | 
-
-[image](image.png)
-
-
 # Comparison of Assemblers 
 ## Redbean/wtdbg2
 Link to [redbean/wtdbg2 github manual](https://github.com/adigenova/wengan).
 
-The redbean pipeline accepts longread inputs. 
+The redbean pipeline is a de novo assembler for noisy long reads. Redbean is a newer assembler with a number of benefits for long read assembly. It’s a de novo assembler and it functions without prior error correction. It’s especially useful for nanopore assembly because it utilizes short kmers to account for the fact that nanopore data is more error prone and has lower coverage. 
+
+The result is that paralogous regions are better resolved but results in a more fragmented assembly. It’s also a faster assembler. Our assembly with redbean took 16 hours, whereas flye took 1-2 days, and canu has been running for 11+ days
+
 
 ## Wengan
 Link to [wengan github manual](https://github.com/adigenova/wengan).
