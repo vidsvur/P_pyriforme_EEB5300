@@ -7,12 +7,14 @@
 #SBATCH --partition=general
 #SBATCH --qos=general
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=nikisha.patel@uconn.edu
+#SBATCH --mail-user=
 #SBATCH -o %x_%A.out
 #SBATCH -e %x_%A.out
 
-##########################################################
-##       QUAST ##
-##########################################################
+#load quast and its version
 module load quast/5.0.2
-quast.py ~/redbean4/wtdbg2/dbg.cns.fa  -o quast_comparison5  --large --k-mer-stats --use-all-alignments --conserved-genes-finding --eukaryote --strict-NA
+
+#the quast command
+  # add the input file to be assessed
+  # -o the output directory
+quast.py ~/redbean4/wtdbg2/dbg.cns.fa  -o quast_comparison5  
