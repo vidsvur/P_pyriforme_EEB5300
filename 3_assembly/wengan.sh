@@ -26,9 +26,8 @@ module load wengan/0.2
 # Wengan commands
    # -x ontraw (assemble nanopore reads)
    # -l <input data>
-   # -p asm_wengan 
+   # -p asm_wengan (assemble step)
    # -t 20 (use 20 threads)
-   # -g 3000 
 
 
 singularity exec /isg/shared/apps/wengan/0.2/wengan_v0.2.sif perl /home/FCAM/kanderson/wengan/wengan/wengan.pl \  # donot change anything here, change parameters below
