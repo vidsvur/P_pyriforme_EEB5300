@@ -4,7 +4,7 @@
 
 Once the raw data was transferred onto the server, the first step was to analyse the raw data for basic stats, which includes total number of bases and the N50. 
 
-See the result file [here](NanoStats.txt)
+See the result file [here](NanoStats.txt).
 
 The number of reads versus the readlengths are shown in the following image:
 
