@@ -1,4 +1,6 @@
 # Comparison of Assemblers 
+
+**Path to assembly scripts:** /projects/EBP/Wegrzyn/Moss/ppyriforme/assembly
 ## Redbean/wtdbg2
 Link to [redbean/wtdbg2 github manual](https://github.com/adigenova/wengan).
 
@@ -24,8 +26,12 @@ Typically, canu assemblies take ~5 days to complete, but our canu assembly pipel
 ## Shasta
 Link to [shasta github manual](https://github.com/chanzuckerberg/shasta). 
 
+Shasta was designed for long-read Oxford reads. For this step, we used the "shasta_assembly.sh" script. The job took a little more than one day to run. Shasta produces an output folder, with "Assembly.fasta" being the output file from the assembly. 
+
 ## Flye 
 Link to [flye github manual](https://github.com/fenderglass/Flye). 
+
+Flye was also designed for Pacbio and Oxford Nanopore reads. We used the "flye_3798_all_2.8.sh" script, and this run took over 1 day to finish. Flye produces multiple output and a detailed log to track the progress of the assembly. If the run is successful, it also produces a "assembly.fasta" file. 
 
 ## References
 Di Genova, A., Buena-Atienza, E., Ossowski, S., & Sagot, M. F. (2020). Efficient hybrid de novo assembly of human genomes with WENGAN. Nature Biotechnology, 1-9.
