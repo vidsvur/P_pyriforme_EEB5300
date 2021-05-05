@@ -6,14 +6,14 @@ Once the raw data was analysed for its basic statistics, the next step was to ru
 
 **Path to directory**:/projects/EBP/Wegrzyn/Moss/ppyriforme/initial_analysis/centrifuge_14813/centrifuge_analysis/1_index
 
-The first step was to download the relevant databases using "batch_download.sh". In the example file here, the databases shown are for arachea, bacteria and fungi
+The first step was to download the relevant databases using "batch_download.sh". In the example file here, the databases shown are for arachea, bacteria and fungi.
 The resulting ".fna" files were concatenated using the "batch_cat.sh" file.
 
 ## Build indices
 
-**Path to directory**:/projects/EBP/Wegrzyn/Moss/ppyriforme/initial_analysis/centrifuge_14813/centrifuge_analysis/1_index
+**Path to directory:** /projects/EBP/Wegrzyn/Moss/ppyriforme/initial_analysis/centrifuge_14813/centrifuge_analysis/1_index
 
-Using "batch_build.sh", we can then create the index files required for the subsequent Centrifuge run. 
+Using "batch_build.sh", we can then created the index files required for the subsequent Centrifuge run. 
 
 
 ## Run Centrifuge
