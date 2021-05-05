@@ -44,7 +44,7 @@ Flye | 1-2 days |
 Redbean | ~16 hours|
 
 Shasta produced an assembly of around 500Mb, whereas flye and redbean assemblies produced assemblies of around 1-2Gb. We hypothesize that Shasta may have assembled a fraction of the assembly, or probably a contaminant. In comparison, flye and redbean were able to produce assemblies that were closer in size. In fact, when we ran flye by enforcing "genome size = 500 Mb", the assembler still produced an assembly of around 1 Gbp. This could be a result of the differences in algorithms between the assemblers. 
-Details of quast and busco scores will be under "4_qualitycontrol"
+Details of quast and busco scores will be under "4_qualitycontrol".
 
 ## References
 Di Genova, A., Buena-Atienza, E., Ossowski, S., & Sagot, M. F. (2020). Efficient hybrid de novo assembly of human genomes with WENGAN. Nature Biotechnology, 1-9.
