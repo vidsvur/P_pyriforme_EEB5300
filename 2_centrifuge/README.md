@@ -27,6 +27,8 @@ We used the "centrifuge_minlen30.sh" script to run Centrifuge. There are three m
 2. Total percent of reads *not* contaminated: ~64%
 3. Main contaminants: Phycomyces blakesleeanus NRRL 1555(-), Saprochaete ingens, Rhizophagus irregularis DAOM 181602=DAOM 197198
 
+![centrifuge results](centrifuge_results.png)
+
 ### Program used:
 
 Github link to [Centrifuge](https://github.com/DaehwanKimLab/centrifuge)
