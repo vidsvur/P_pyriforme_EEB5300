@@ -21,7 +21,14 @@ date
 module load perl/5.28.1
 module load wengan/0.2
 
-#wengan.pl -l /projects/EBP/Wegrzyn/Moss/ppyriforme/assembly/centrifuge/abv_fungi_unclassified_reads_from_centrifuge/ppyriforme_unclassified_reads_prometh_only.fastq  -p asm_wengan -t 20 -g 3000
+# wengan.pl -l /projects/EBP/Wegrzyn/Moss/ppyriforme/assembly/centrifuge/abv_fungi_unclassified_reads_from_centrifuge/ppyriforme_unclassified_reads_prometh_only.fastq  -p asm_wengan -t 20 -g 3000
+
+# Wengan commands
+   # -x ontraw (assemble nanopore reads)
+   # -l <input data>
+   # -p asm_wengan 
+   # -t 20 
+   # -g 3000
 
 singularity exec /isg/shared/apps/wengan/0.2/wengan_v0.2.sif perl /home/FCAM/kanderson/wengan/wengan/wengan.pl \  # donot change anything here, change parameters below
                 -x ontraw \
