@@ -24,9 +24,10 @@ We used the "centrifuge_minlen30.sh" script to run Centrifuge. There are three m
 
 **Summarised results:**
 1. The result file used was "ppyriforme_unclassified_reads_prometh_only.fastq" in the directory: /projects/EBP/Wegrzyn/Moss/ppyriforme/assembly/centrifuge/abv_fungi_unclassified_reads_from_centrifuge
-2. Total percent of reads *not* contaminated: ~64%
+2. Total percent of reads *not* contaminated: ~60%
 3. Main contaminants: Phycomyces blakesleeanus NRRL 1555(-), Saprochaete ingens, Rhizophagus irregularis DAOM 181602=DAOM 197198
 
+A visual of percentage of contaminated reads:
 ![centrifuge results](centrifuge_results.png)
 
 ### Program used:
