@@ -8,3 +8,5 @@ A | table |
 --|-- |
 hi | banana | 
 
+[image](image.png)
+
