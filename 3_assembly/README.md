@@ -21,7 +21,7 @@ Miniasm was designed to assemble noisy longreads. We attempted several iteration
 Link to [canu quickstart manual](https://canu.readthedocs.io/en/latest/quick-start.html). Link to [canu github manual](https://github.com/marbl/canu).
 
 Canu was designed to assemble Oxford & PacBio Nanopore long reads. The canu assembly script initially failed 3 times due to incorrect flag selection, but the 4th attempt has been successful so far (still running). The flags we used included turning off the grid and setting the genome size to 500m. 
-Typically, canu assemblies take ~5 days to complete, but our canu assembly pipeline has been running for 13 days, as of 5/6/21. The output files have not yet been transferred to the shared directory yet, since the assembly is still running. The three phases of the canu pipeline are correction, trimming & assembly. The output files indicate that the pipeline is currently at the “obtovl overlap” step, which began on 5/3/21. The output files can be viewed in Kris’ directory at Path /home/FCAM/kanderson/canu/canu_trial4.
+Typically, canu assemblies take ~5 days to complete, but our canu assembly pipeline has been running for 13 days, as of 5/6/21. The output files have not yet been transferred to the shared directory yet, since the assembly is still running. The three phases of the canu pipeline are correction, trimming & assembly. The output files indicate that the pipeline is currently at the “obtovl overlap” step, which began on 5/3/21. The output files are running in Kris’ directory at Path /home/FCAM/kanderson/canu/canu_trial4. The canu files will be transferred to the shared directory once the run is complete.
 
 ## Shasta
 Link to [shasta github manual](https://github.com/chanzuckerberg/shasta). 
